@@ -144,7 +144,7 @@ export default {
 }
 .question-preview {
   width: 70%;
-  border-left: 1px solid lightgray;
+  border-left: 0.06rem solid lightgray;
 }
 .dropdown {
   width: 80%;
@@ -152,12 +152,12 @@ export default {
 }
 .question-button {
   background-color: gray;
-  border-radius: 6px;
+  border-radius: 0.4rem;
   border: 0;
   color: white;
-  padding: 10px 12px;
+  padding: 0.6rem 0.8rem;
   width: 100%;
-  font-size: 16px;
+  font-size: 1rem;
   position: relative;
 }
 .question-button:hover {
@@ -171,10 +171,10 @@ export default {
 
 ul {
   list-style: none;
-  border: 1px solid lightgray;
+  border: 0.06rem solid lightgray;
   display: flex;
   flex-direction: column;
-  border-radius: 4px;
+  border-radius: 0.3rem;
   width: 50%;
   margin: 0;
   padding: 0;
@@ -189,7 +189,7 @@ li {
 .cards-array {
   padding: 1rem;
 }
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
   .question-main {
     flex-direction: column;
   }

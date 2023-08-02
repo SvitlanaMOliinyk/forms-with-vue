@@ -71,12 +71,12 @@ export default {
 <style scoped>
 .question-changer {
   padding: 1rem 0 2rem 2rem;
-  border-bottom: 1px solid lightgray;
-  font-size: 24px;
+  border-bottom: 0.06rem solid lightgray;
+  font-size: 1.5rem;
 }
 .preview-part {
   padding: 1rem 2rem;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 form {
   display: flex;
@@ -94,37 +94,36 @@ label {
 }
 input {
   height: 4vh;
-  border-radius: 6px;
-  border: 1px solid lightgrey;
+  border-radius: 0.4rem;
+  border: 0.06rem solid lightgrey;
 }
 .slider input {
   width: 100%;
   -webkit-appearance: none;
   background-color: rgb(148, 249, 148);
-  height: 5px;
+  height: 0.3rem;
 }
 .slider input::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 15px;
-  height: 15px;
+  width: 0.9rem;
+  height: 0.9rem;
   border-radius: 50%;
   background: green;
 }
 .slider label {
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 h6 {
   display: block;
   width: 10%;
   padding: 0.5rem 1rem;
-  background-color: limegreen;
-  border: 1px solid limegreen;
-  border-radius: 15px;
+  border: 0.06rem solid limegreen;
+  border-radius: 0.9rem;
   text-align: center;
 }
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
 .question-changer, .preview-part{
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 }
 </style>

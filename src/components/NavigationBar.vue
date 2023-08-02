@@ -23,7 +23,7 @@ h3 {
   padding: 1rem;
   margin: 0;
 }
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
   h3 {
     padding: 1rem 0 1rem 2rem;
   }
