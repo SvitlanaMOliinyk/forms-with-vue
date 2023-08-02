@@ -64,4 +64,12 @@ h5 {
 h5 {
   font-weight: 200;
 }
+@media only screen and (max-width: 900px) {
+ .cross-icon {
+  padding: 0.2rem;
+}
+.question-card{
+  font-size: 20px;
+}
+}
 </style>

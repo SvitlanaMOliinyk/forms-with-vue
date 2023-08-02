@@ -134,7 +134,6 @@ export default {
 
 <style>
 .question-main {
-  background-color: whitesmoke;
   display: flex;
   height: 95vh;
 }
@@ -196,11 +195,14 @@ li {
   }
   .question-sidebar,
   .question-preview {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .question-preview {
+    border-left: 0;
   }
   .dropdown {
-    width: 95%;
-    padding: 1rem;
+    width: 100%;
   }
 }
 </style>

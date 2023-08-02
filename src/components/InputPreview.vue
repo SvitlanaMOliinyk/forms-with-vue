@@ -122,4 +122,9 @@ h6 {
   border-radius: 15px;
   text-align: center;
 }
+@media only screen and (max-width: 900px) {
+.question-changer, .preview-part{
+  font-size: 20px;
+}
+}
 </style>
