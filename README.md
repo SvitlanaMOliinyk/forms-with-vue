@@ -2,7 +2,8 @@
 
 ## Project discription
 
-The app helps a user to build *a form with a question*.
+The app helps a user to build *a form with a question*.  
+
 **The User can:**
 
 - add a question to the form,
